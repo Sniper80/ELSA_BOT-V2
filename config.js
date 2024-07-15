@@ -4,23 +4,24 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 //═══════[Required Variables]════════\\
 global.owner = process.env.OWNER_NUMBER.split(",")
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://godzenitsu:safeer.123.@nezuko.7kvhs7q.mongodb.net/"
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://egsniper4:Aa@#$123@sniperbot.tm21ed4.mongodb.net/"
+"
 global.port= process.env.PORT || 5000
-global.email = ''
+global.email = 'egsniper4@gmail.com'
 global.github = 'h'
-global.location = 'Sultanpur IN'
-global.gurl = 'https://653d199bb6634.site123.me/' // add your username
-global.sudo = process.env.SUDO || '201098906252'
-global.devs = '201098906252';
-global.website = 'https://chat.whatsapp.com/H7lNIia7rsaDcYSNWrtTGI' //wa.me/+25000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/ab4018d27c9929dc12595.jpg'
+global.location = 'Cairo EG'
+global.gurl = 'https://egsniper.com' // add your username
+global.sudo = process.env.SUDO || '201020182886'
+global.devs = '201020182886';
+global.website = 'egsniper.com' //wa.me/+25000000000000
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://graph.org/file/04a403b1c0b3198fadf9c.jpg'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? '*『❄️┇❆ 𝐸𝐿𝑆𝐴 𝐵𝑂𝑇-𝑀𝐷 ❆┇❄️』*' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? '𝐄𝐋𝐆𝐀𝐙𝐀𝐑 ❄️&𝐈𝐓𝐀𝐂𝐇𝐈 👑' : process.env.OWNER_NAME,
+  botname:   process.env.BOT_NAME === undefined ? '*『❄️┇❆ 𝚂𝙽𝙸𝙿𝙴𝚁 𝙱𝙾𝚃 ❆┇❄️』*' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? ' 𝚂𝙽𝙸𝙿𝙴𝚁 👑' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
-  author:  process.env.PACK_INFO.split(";")[0] === undefined ? '*『❄️┇❆ 𝐸𝐿𝑆𝐴 𝐵𝑂𝑇-𝑀𝐷 ❆┇❄️』*' : process.env.PACK_INFO.split(";")[0],
+  author:  process.env.PACK_INFO.split(";")[0] === undefined ? '*『❄️┇❆ 𝚂𝙽𝙸𝙿𝙴𝚁 𝙱𝙾𝚃 ❆┇❄️』*' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
-  packname:  process.env.PACK_INFO.split(";")[1] === undefined ? '𝐄𝐋𝐆𝐀𝐙𝐀𝐑 ❄️&𝐈𝐓𝐀𝐂𝐇𝐈 👑' : process.env.PACK_INFO.split(";")[1],
+  packname:  process.env.PACK_INFO.split(";")[1] === undefined ? ' 𝚂𝙽𝙸𝙿𝙴𝚁 👑' : process.env.PACK_INFO.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
